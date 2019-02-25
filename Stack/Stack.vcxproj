@@ -19,11 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="TwoStackByQueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Queue.c" />
+    <ClCompile Include="Stack.c" />
+    <ClCompile Include="test.c" />
+    <ClCompile Include="TwoStackByQueue.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -14,6 +14,7 @@ typedef int DataType;
 //顺序栈和顺序表数据成员相同
 //不同之处：顺序栈的入栈和出栈操作只允许对当前栈顶进行操作。
 //顺序栈
+//后进先出
 typedef struct stack
 {
 	DataType* _a;
@@ -29,3 +30,4 @@ void StackPop(Stack* ps);
 DataType StackTop(Stack* ps);
 int StackEmpty(Stack* ps);
 int StackSize(Stack* ps);
+void TestStack();
