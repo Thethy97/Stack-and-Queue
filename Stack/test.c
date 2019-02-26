@@ -1,10 +1,11 @@
 #include"Stack.h"
-//#include"Queue.h"
+#include"Queue.h"
 #include"TwoStackByQueue.h"
-
+#include"StackByTwoQueue.h"
 int main()
 {
-	TestSQueue();
+	//TestSQueue();
+	TestQStack();
 	printf("\n");
 	
 	/*TestStack();

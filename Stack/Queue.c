@@ -53,7 +53,7 @@ void QueuePop(Queue* pq)//队头删除
 	QueueNode* newnode = pq->_front;
 	QueueNode* next = newnode->_next;
 	free(pq->_front);
-	pq->_front = next;*/
+	pq->_front = next;*///出现异常的原因：没有处理pq->_back;
 	QueueNode* cur = NULL;
 	assert(pq);
 	if (pq->_front == NULL)
@@ -61,7 +61,8 @@ void QueuePop(Queue* pq)//队头删除
 	cur = pq->_front->_next; //先将下一个节点保存，在free front,防止内存泄漏
 	free(pq->_front);
 	pq->_front = cur;
-	if (cur == NULL)
+	if (cur == NULL)//处理pq->_back
+
 	{
 		pq->_back = NULL;
 	}

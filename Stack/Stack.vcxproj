@@ -21,11 +21,13 @@
   <ItemGroup>
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="StackByTwoQueue.h" />
     <ClInclude Include="TwoStackByQueue.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Queue.c" />
     <ClCompile Include="Stack.c" />
+    <ClCompile Include="StackByTwoQueue.c" />
     <ClCompile Include="test.c" />
     <ClCompile Include="TwoStackByQueue.c" />
   </ItemGroup>
